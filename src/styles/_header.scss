@@ -1,0 +1,53 @@
+/* -------------------------------- Mobile S -------------------------------- */
+@media only screen and (min-width: 0px) and (max-width: 425px) {
+}
+/* -------------------------------- Mobile L -------------------------------- */
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+}
+/* ---------------------------------- Tablet ---------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+/* ---------------------------------- Laptop ---------------------------------- */
+@media only screen and (min-width: 1024px) {
+  .site-header {
+    * {
+      transition: all 0.3s ease-in-out;
+    }
+
+    color: $gray;
+    background-color: $bunker;
+
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    height: 3rem;
+
+    .site-header__brand {
+      padding: 0 1rem;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      font-size: 1.5rem;
+      font-weight: 900;
+      display: flex;
+      align-items: center;
+      &:hover {
+        background-color: rgba(white, 0.1);
+      }
+    }
+
+    .site-header__menu {
+      display: flex;
+      .site-header__menu__child {
+        display: flex;
+        align-items: center;
+        padding: 0 1rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 600;
+        &:hover {
+          background-color: rgba(white, 0.1);
+        }
+      }
+    }
+  }
+}
