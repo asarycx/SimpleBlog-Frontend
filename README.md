@@ -1,1 +1,3 @@
-this exist because setting up react is a pain for me.
+# SimpleBlog Frontend [Work In Progress]
+
+Simple Blog made With ReactJS

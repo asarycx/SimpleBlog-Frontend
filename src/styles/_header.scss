@@ -21,6 +21,8 @@
     flex: 1;
     justify-content: space-between;
     height: 3rem;
+    // marg
+    // width: 700px;
 
     .site-header__brand {
       padding: 0 1rem;
@@ -45,6 +47,7 @@
         letter-spacing: 1px;
         font-weight: 600;
         &:hover {
+          color: rgba(white, 0.5);
           background-color: rgba(white, 0.1);
         }
       }

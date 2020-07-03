@@ -1,13 +1,14 @@
 @import "./variables.scss";
 @import "./_header.scss";
 body {
-  margin: 0;
+  margin: auto;
+  // width: 700px;
   font-family: $font-noto;
   background-color: $gray;
   color: $bunker;
   .main {
-    margin: auto;
-    width: 500px;
+    // margin: auto;
+    // width: 500px;
   }
 }
 
